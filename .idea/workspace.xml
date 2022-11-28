@@ -4,11 +4,37 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ec867ffa-6440-465b-8269-0988bdb49d66" name="Changes" comment="" />
+    <list default="true" id="ec867ffa-6440-465b-8269-0988bdb49d66" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/FarmSimulator/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/FarmSimulator/DairyCow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/FarmSimulator/Farm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/FarmSimulator/Goat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/FarmSimulator/MilkTank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/FarmSimulator/Milkable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/FarmSimulator/MilkingMachine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/FarmSimulator/Shed.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/FarmSimulator/herdOfAnimals.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2HilnvIUptPCWEhoHCJpUwxI4eN" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -18,10 +44,19 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Gd2Primitives",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="FarmSimulator" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -31,6 +66,18 @@
       <option name="presentableId" value="Default" />
       <updated>1668775957799</updated>
     </task>
+    <task id="LOCAL-00001" summary="its done">
+      <created>1668776201200</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1668776201201</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="its done" />
+    <option name="LAST_COMMIT_MESSAGE" value="its done" />
   </component>
 </project>
