@@ -6,21 +6,25 @@ public class DairyCow extends Animal
     private String owner;
     private String name;
     private final int udders = 4;
-    private int udderCapacity = 20 - 40;
+
+    //udder capacity between 20 and 40
+    private int udderCapacity = (int)(Math.random() * 20) + 20;
+
     private int milkProduced = 4-5;
 
 
     //creates a new cow with a random name
-    public DairyCow(String owner)
+    public DairyCow()
     {
-        this.owner = owner;
-        name = "Cow" + (int)(Math.random() * 1000);
+        super();
+
+        this.name = "Dairy Cow";
     }
 
     //creates a new cow with a given name
-    public DairyCow(String owner, String name)
+    public DairyCow( String name)
     {
-        this.owner = owner;
+        this();
         this.name = name;
     }
 
@@ -35,7 +39,6 @@ public class DairyCow extends Animal
         return udderCapacity;
     }
 
-
     //returns a string that describes a cow
     public String toString()
     {
@@ -43,6 +46,7 @@ public class DairyCow extends Animal
     }
 
 
-
-
+    public void saveToFile()
+    {
+    }
 }

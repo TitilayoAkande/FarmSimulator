@@ -5,9 +5,16 @@ public class MilkTank
     private double capacity;
     private double maxCapacity = 2000;
 
+    MilkTank milkTank;
+
     public MilkTank()
     {
 
+    }
+
+    public MilkTank getMilkTank()
+    {
+        return milkTank;
     }
 
     public MilkTank(int customCapacity)
@@ -69,5 +76,10 @@ public class MilkTank
                 ", capacity=" + capacity +
                 ", maxCapacity=" + maxCapacity +
                 '}';
+    }
+
+
+    protected void getMilk()
+    {
     }
 }
