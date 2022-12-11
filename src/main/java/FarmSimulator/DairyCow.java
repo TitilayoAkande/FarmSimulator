@@ -1,21 +1,26 @@
 package FarmSimulator;
 
-public class DairyCow
+public class DairyCow extends Animal
 {
     private int ID;
     private String owner;
     private String name;
-    private int udder;
-    private double capacity;
+    private final int udders = 4;
+    private int udderCapacity = 20 - 40;
+    private int milkProduced = 4-5;
 
 
-    public DairyCow()
+    //creates a new cow with a random name
+    public DairyCow(String owner)
     {
-
+        this.owner = owner;
+        name = "Cow" + (int)(Math.random() * 1000);
     }
 
-    public DairyCow(String name)
+    //creates a new cow with a given name
+    public DairyCow(String owner, String name)
     {
+        this.owner = owner;
         this.name = name;
     }
 
@@ -24,21 +29,20 @@ public class DairyCow
         return name;
     }
 
-    public double getCapacity()
+    //returns the udder capacity of the DairyCow
+    double getUdderCapacity()
     {
-        return capacity;
+        return udderCapacity;
     }
 
 
-    @Override
+    //returns a string that describes a cow
     public String toString()
     {
-        return "DairyCow{" +
-                "ID=" + ID +
-                ", owner='" + owner + '\'' +
-                ", name='" + name + '\'' +
-                ", udder=" + udder +
-                ", capacity=" + capacity +
-                '}';
+        return "DairyCow " + name + " owned by " + owner;
     }
+
+
+
+
 }

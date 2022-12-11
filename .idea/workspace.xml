@@ -5,17 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ec867ffa-6440-465b-8269-0988bdb49d66" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/FarmSimulator/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/FarmSimulator/DairyCow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/FarmSimulator/Farm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/FarmSimulator/Goat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/FarmSimulator/MilkTank.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/FarmSimulator/Milkable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/FarmSimulator/MilkingMachine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/FarmSimulator/Shed.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/FarmSimulator/herdOfAnimals.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/FarmSimulator/BeefCow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/FarmSimulator/IMilkable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/FarmSimulator/ISaveable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/FarmSimulator/Sheep.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -26,6 +19,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -48,7 +42,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Gd2Primitives",
+    "last_opened_file_path": "C:/Users/D00250764/OneDrive - Dundalk Institute of Technology/YEAR 2/Object Oriented Programming/GD2Primitives",
     "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>

@@ -7,5 +7,7 @@ public class Farm
     private int ID;
     private String owner;
     private Shed shed;
-    private ArrayList<herdOfAnimals> herdOfAnimals;
+    private ArrayList<Animal> herd = new ArrayList<Animal>();
+
+
 }

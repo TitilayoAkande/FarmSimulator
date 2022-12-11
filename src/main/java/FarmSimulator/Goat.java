@@ -1,5 +1,6 @@
 package FarmSimulator;
 
-public class Goat
+public class Goat extends Animal
 {
+
 }
