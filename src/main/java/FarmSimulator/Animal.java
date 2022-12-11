@@ -42,4 +42,10 @@ public class Animal
     public void loadFromFile()
     {
     }
+
+    public boolean getHealth()
+    {
+        return true;
+    }
+
 }

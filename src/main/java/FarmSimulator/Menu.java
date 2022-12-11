@@ -333,6 +333,123 @@ public class Menu
             }
         }
 
+        //Milk all animals on the farm
+        MILK_ALL:
+        while (true)
+        {
+            System.out.println("1. Milk All Animals");
+            System.out.println("2. Exit");
+            System.out.println("Please enter your choice: ");
+
+            int choice = farm.getScanner().nextInt();
+
+            switch (choice)
+            {
+                case 1:
+                    farm.milkAllAnimals();
+                    break;
+                case 2:
+                    break MILK_ALL;
+                default:
+                    System.out.println("Invalid choice");
+            }
+        }
+
+        //Allow for the death of an animal. When an animal dies it is removed from the herd
+        DEATH:
+        while (true)
+        {
+            System.out.println("1. Death");
+            System.out.println("2. Exit");
+            System.out.println("Please enter your choice: ");
+
+            int choice = farm.getScanner().nextInt();
+
+            switch (choice)
+            {
+                case 1:
+                    farm.death();
+                    break;
+                case 2:
+                    break DEATH;
+                default:
+                    System.out.println("Invalid choice");
+            }
+        }
+
+        //Allow for a milk collection, where all milk tanks on the farm are emptied
+        MILK_COLLECTION:
+        while (true)
+        {
+            System.out.println("1. Milk Collection");
+            System.out.println("2. Exit");
+            System.out.println("Please enter your choice: ");
+
+            int choice = farm.getScanner().nextInt();
+
+            switch (choice)
+            {
+                case 1:
+                    farm.milkCollection();
+                    break;
+                case 2:
+                    break MILK_COLLECTION;
+                default:
+                    System.out.println("Invalid choice");
+            }
+        }
+
+        //Print the animals in each herd in order of value. Milkable animals are valued by how much milk they produce. BeefCows and Sheep are valued by pedigree, weight and age. Choose 2 other orderings implement suitable Comparators to print objects on the farm in sorted order of your choice.
+        PRINT_ORDER:
+        while (true)
+        {
+            System.out.println("1. Print Order");
+            System.out.println("2. Exit");
+            System.out.println("Please enter your choice: ");
+
+            int choice = farm.getScanner().nextInt();
+
+            switch (choice)
+            {
+                case 1:
+                    farm.printOrder();
+                    break;
+                case 2:
+                    break PRINT_ORDER;
+                default:
+                    System.out.println("Invalid choice");
+            }
+        }
+
+        //Load from and store to a text file the farm, sheds and herds when the application opens or closes. These can be separate files.
+        LOAD_STORE:
+        while (true)
+        {
+            System.out.println("1. Load");
+            System.out.println("2. Store");
+            System.out.println("3. Exit");
+            System.out.println("Please enter your choice: ");
+
+            int choice = farm.getScanner().nextInt();
+
+            switch (choice)
+            {
+                case 1:
+                    farm.load();
+                    break;
+                case 2:
+                    farm.store();
+                    break;
+                case 3:
+                    break LOAD_STORE;
+                default:
+                    System.out.println("Invalid choice");
+            }
+        }
+
+
+
+
 
     }
 }

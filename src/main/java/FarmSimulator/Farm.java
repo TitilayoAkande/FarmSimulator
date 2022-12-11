@@ -157,4 +157,43 @@ public class Farm
     public void printShedDetails()
     {
     }
+
+    public void milkAllAnimals()
+    {
+
+    }
+
+    public void death()
+    {
+
+    }
+    public void milkCollection()
+    {
+        for (Animal animal : herd)
+        {
+            if (animal instanceof IMilkable)
+            {
+                ((IMilkable) animal).milk();
+            }
+        }
+    }
+
+
+    public void printOrder()
+    {
+        for (Animal animal : herd)
+        {
+            System.out.println(animal);
+        }
+    }
+
+    public void load()
+    {
+        // TODO Auto-generated method stub
+    }
+
+    public void store()
+    {
+        // TODO Auto-generated method stub
+    }
 }
